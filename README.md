@@ -11,11 +11,11 @@ This project is written in FORTRAN95 language and o run it you should have the a
 
 I compile such files with:
 
-gfortran -O2 -fimplicit-none  -Wall  -Wline-truncation  -Wcharacter-truncation  -Wsurprising  -Waliasing  -Wimplicit-interface  -Wunused-parameter  -fwhole-file  -fcheck=all  -std=f2008  -pedantic  -fbacktrace main.f95 -o MainExec 
+gfortran -O2 -fimplicit-none  -Wall  -Wline-truncation  -Wcharacter-truncation  -Wsurprising  -Waliasing  -Wimplicit-interface  -Wunused-parameter  -fwhole-file  -fcheck=all  -std=f2008  -pedantic  -fbacktrace Main.f95 -o MainExec 
 
 But one can compile it with just 
 
-gfortran main.f95
+gfortran Main.f95
 
 Afterward, if you get no problems, type: 
 
